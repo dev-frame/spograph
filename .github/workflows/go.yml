@@ -1,0 +1,30 @@
+name: Go
+
+on:
+  # triggers the execution of jobs when committed to the main branch
+  push:
+    branches:
+      - main
+  # trigger execution of jobs when merging to main branch
+  pull_request:
+    branches:
+      - main
+
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: 1.20.14
+
+      - name: Build
+        run: go build
