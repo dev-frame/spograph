@@ -1,0 +1,21 @@
+# app settings
+app:
+  name: "serverNameExample"
+  env: "dev1"
+  version: "v0.0.0"
+  password: "123456"
+
+database:
+  driver: "mysql"
+# mysql settings
+  mysql:
+    # dsn format, <user>:<pass>@(127.0.0.1:3306)/<db>?[k=v& ......]
+    dsn: "root:123456@(192.168.3.37:3306)/account?parseTime=true&loc=Local&charset=utf8,utf8mb4"
+
+# redis settings
+redis:
+  # dsn format, [user]:<pass>@]127.0.0.1:6379/[db]
+  dsn: "default:123456@192.168.3.37:6379/0"
+  dialTimeout: 10
+  readTimeout: 2
+  writeTimeout: 2
