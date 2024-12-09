@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/zhufuyi/sponge/pkg/gofile"
+	"github.com/dev-frame/spograph/pkg/gofile"
 )
 
 // ListSubDirs lists all subdirectories of the given root directory that have the given subdirectory name.

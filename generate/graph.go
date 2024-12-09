@@ -11,8 +11,8 @@ import (
 	"github.com/goccy/go-graphviz/cgraph"
 	"github.com/spf13/cobra"
 
-	"github.com/zhufuyi/sponge/pkg/conf"
-	"github.com/zhufuyi/sponge/pkg/gofile"
+	"github.com/dev-frame/spograph/pkg/conf"
+	"github.com/dev-frame/spograph/pkg/gofile"
 )
 
 // GenGraphCommand generate graph command

@@ -1,18 +1,18 @@
 ## spograph
 
-`spograph` is a tool for generating business architecture diagram based on the Go development framework [**Sponge**](https://github.com/zhufuyi/sponge).
+`spograph` is a tool for generating business architecture diagram based on the Go development framework [**Sponge**](https://github.com/zhufuyi/spograph).
 
 ### Quick Start
 
 #### Install spograph
 
 ```bash
-go install github.com/zhufuyi/spograph@latest
+go install github.com/dev-frame/spograph@latest
 ```
 
 #### Example of Use
 
-Open a project created with Sponge, for example:  [eshop/example-2-mono-repo](https://github.com/zhufuyi/sponge_examples/tree/main/_14_eshop/example-2-mono-repo)
+Open a project created with Sponge, for example:  [eshop/example-2-mono-repo](https://github.com/zhufuyi/spograph_examples/tree/main/_14_eshop/example-2-mono-repo)
 
 ```bash
 # Case 1: Generate a business architecture diagram for the entire project
