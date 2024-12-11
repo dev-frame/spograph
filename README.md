@@ -7,7 +7,7 @@
 #### Install spograph
 
 ```bash
-go install github.com/dev-frame/spograph@latest
+go install github.com/go-dev-frame/spograph@latest
 ```
 
 #### Example of Use

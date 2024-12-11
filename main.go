@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/dev-frame/spograph/generate"
+	"github.com/go-dev-frame/spograph/generate"
 )
 
 func main() {

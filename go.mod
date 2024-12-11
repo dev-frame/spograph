@@ -1,4 +1,4 @@
-module github.com/dev-frame/spograph
+module github.com/go-dev-frame/spograph
 
 go 1.20
 
@@ -8,11 +8,9 @@ require (
 	github.com/goccy/go-graphviz v0.1.3
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/viper v1.12.0
-	github.com/stretchr/testify v1.8.3
 )
 
 require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fogleman/gg v1.3.0 // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
@@ -24,7 +22,6 @@ require (
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/afero v1.9.2 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
